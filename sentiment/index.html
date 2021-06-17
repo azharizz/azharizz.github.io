@@ -80,9 +80,9 @@ function classify()
     pred = model.predict(input)
     result = pred.dataSync()[0]
     if (result > 0.5)
-     document.getElementById('result').innerHTML = 'Positive'
+     document.getElementById('result').innerHTML = txt , 'Positive'
     else 
-     document.getElementById('result').innerHTML = 'Negative'
+     document.getElementById('result').innerHTML = txt , 'Negative'
  }
 var model ; 
 var word_index = undefined
@@ -93,7 +93,7 @@ window.onload = function (){
 </script>
  <body>
   <p id = "status"></p>
-  <p>Enter a movie review for instance 'awesome/horrible movie' </p> <br>
+  <p>Enter a tweet review </p> <br>
   <input id = 'txt' type="text" name="username"> <button onclick = "classify()" >Classify</button><br>
   <p id = "result"></p>
 </body>
