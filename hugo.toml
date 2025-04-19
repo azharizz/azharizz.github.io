@@ -21,7 +21,26 @@ title = "Azhar Izzannada Elbachtiar"
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
-  customHeadHTML = ""
+  customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+      });
+    </script>
+  """
 
   # Configure how post dates are displayed
   dateFormat = "January 2, 2006"
@@ -30,7 +49,7 @@ title = "Azhar Izzannada Elbachtiar"
   description = "Sky above, sand below & peace within"
 
   # Footer text (i.e. author/project name)
-  footer = "The Marauders"
+  footer = "Data Engineer"
 
   # Define SEO keywords
   metaKeywords = ["blog", "gokarna", "hugo"]
@@ -53,22 +72,42 @@ title = "Azhar Izzannada Elbachtiar"
   # Incompatible with Weight
   togglePreviousAndNextButtons = false
 
+  socialIcons = [
+    {name = "x", url = "https://example.com"},
+    {name = "linkedin", url = "https://example.com"},
+    {name = "medium", url = "https://medium.com"},
+    {name = "email", url = "mailto:example@example.com"}
+  ]
+
 [menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
   [[menu.main]]
     # Display name
     name = "Posts"
-
+    pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
     url = "/posts/"
 
     # Lower weights are listed first in the menu (leftmost); higher weights are
     # listed last in the menu (rightmost)
-    weight = 1
+    weight = 2
+
+  [[menu.main]]
+    name = "Portfolio "
+    pre = "<span data-feather='code'></span>"
+    url = "/portfolio/"
+    weight = 3
 
   [[menu.main]]
     name = "Tags"
+    pre = "<span data-feather='tag'></span>"
     url = "/tags/"
-    weight = 2
+    weight = 4
     
   [[menu.main]]
     # Unique identifiers are required for menu entries without a name property,
@@ -77,9 +116,12 @@ title = "Azhar Izzannada Elbachtiar"
 
     # Absolute URL to external resource
     url = "https://github.com"
-    weight = 3
+    weight = 5
     
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
     pre = "<span data-feather='github'></span>"
     post = ""
+
+[minify]
+    minifyOutput = true
