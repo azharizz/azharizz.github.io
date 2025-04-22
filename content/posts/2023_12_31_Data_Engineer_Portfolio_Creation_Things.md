@@ -18,13 +18,15 @@ I’ve found that creating projects—especially in **data engineering**—offer
 
 # Cost and Struggle
 
+![Meme Cat](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk2NTdkMGh3cWJocmphdXA2NDFreDB5dHB6cGQwcDk5OHBnaHYzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/unQ3IJU2RG7DO/giphy.gif)
+
 Data engineering projects can sometimes costly for cloud services, computation, data samples, and more. You can mitigate these expenses by choosing **open‑source tools** or signing up for **free trials** on: 
 - Cloud platform such as Google Cloud Platform (GCP), AWS, and Azure
 - Platform as a service like Databricks and Snowflake. 
 
 Personally as in my trials, **GCP, Databricks, and Snowflake** offer the most generous free‑trial credits and compute resources.
 
-Finding the idea for a data engineering project can be tricky, especially if you want it to be valuable or unique. One effective strategy is to address **real‑world company problems**. You can learn what companies are tackling by attending their conferences—I used insights from the [**Tokopedia START Summit Extension 2022**](https://medium.com/life-at-tokopedia/tokopedia-start-summit-2022-bringing-tech-learning-to-the-next-level-3c9dc3653f82) to build a [**Product Cataloging project**](https://github.com/azharizz/ecommerce_product_cataloging) inspired by their team’s challenges. Alternatively, browsing job postings to see which tools and workflows companies use can be base ideas for your own projects.
+Finding the idea for a data engineering project can be tricky, especially if you want it to be valuable or unique. One effective strategy is to address **real‑world company problems**. You can learn what companies are tackling by attending their conferences—I used insights from the [**Tokopedia START Summit Extension 2022**](https://medium.com/life-at-tokopedia/tokopedia-start-summit-2022-bringing-tech-learning-to-the-next-level-3c9dc3653f82) to build a [**Product Cataloging project**](/portfolio/product_cataloging_tokopedia) inspired by their team’s challenges. Alternatively, browsing job postings to see which tools and workflows companies use can be base ideas for your own projects.
 
 Building a project closely related to the role you want can increase your chances of landing an interview, although it’s never a guarantee. Even if you don’t get invited, you’ll have a strong portfolio piece and gain valuable new skills. In this world, It's rare having 100% certain—but boosting your odds, even by just **1%**, can set you apart from the rest.
 

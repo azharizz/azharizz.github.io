@@ -1,2 +1,92 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Azhar Izzannada Elbachtiar</title><link>http://localhost:1313/portfolio/</link><description>Recent content in Projects on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Blüdhaven</title><link>http://localhost:1313/portfolio/bludhaven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/bludhaven/</guid><description>&lt;h2 id="history">History&lt;/h2>
-&lt;p>Blüdhaven was a former whaling town, which was officially incorporated as a &amp;ldquo;Commonwealth&amp;rdquo; in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Azhar Izzannada Elbachtiar</title><link>https://example.org/portfolio/</link><description>Recent content in Projects on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="https://example.org/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Blüdhaven</title><link>https://example.org/portfolio/bludhaven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/bludhaven/</guid><description>&lt;h2 id="history">History&lt;/h2>
+&lt;p>Blüdhaven was a former whaling town, which was officially incorporated as a &amp;ldquo;Commonwealth&amp;rdquo; in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center.&lt;/p></description></item><item><title>Data Mining Competition Earthquake Classification</title><link>https://example.org/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;p>&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification.gif" alt="GIF_Page">&lt;/p>
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>We were challenged to predict the phase of an earthquake—a multiclass classification task—within a strict &lt;strong>5-hour time limit&lt;/strong>. The results had to be submitted to Kaggle for leaderboard ranking and also presented live to a panel of judges.&lt;/p>
+&lt;h1 id="resolve-and-result">Resolve and Result&lt;/h1>
+&lt;p>We broke the process down into three key stages:&lt;/p>
+&lt;ol>
+&lt;li>Data Cleaning &amp;amp; Transformation&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Applied labeling and One-Hot Encoding to categorical features&lt;/li>
+&lt;li>Split into train, validation, and test sets&lt;/li>
+&lt;li>Scaling using Standard Scaler&lt;/li>
+&lt;li>Handled class imbalance with SMOTE oversampling&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Exploratory Data Analysis (EDA)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Used a heatmap to explore correlation between sensor values&lt;/li>
+&lt;li>Discovered distribution of earthquake phases pretty different&lt;/li>
+&lt;li>No missing values&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>Data Modeling&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Due to limited time and using &lt;strong>only a standard laptop&lt;/strong>, we prioritized fast experimentation&lt;/li>
+&lt;li>Performed hyperparameter tuning with Randomized Search&lt;/li>
+&lt;li>Tried several models:
+&lt;ul>
+&lt;li>Decision Tree&lt;/li>
+&lt;li>Random Forest&lt;/li>
+&lt;li>XGBoost (best-performing)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="-results">🏆 Results&lt;/h2>
+&lt;ul>
+&lt;li>Our XGBoost model achieved the highest accuracy of &lt;strong>90%&lt;/strong>&lt;/li>
+&lt;li>We secured &lt;strong>1st place&lt;/strong> on the Kaggle leaderboard for the competition!&lt;/li>
+&lt;/ul>
+&lt;h2 id="repository">Repository&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/azharizz/STEADataset_DataMining">&lt;strong>Github Code&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kaggle.com/competitions/finaldatamininganforcom20/leaderboard">&lt;strong>Kaggle&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>NLP Brand Sentiment Analysis</title><link>https://example.org/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;p>&lt;img src="https://example.org/images/nlp_brand_sentiment_analysis.gif" alt="GIF_Page">&lt;/p>
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>The Brand Department needed to identify &lt;strong>key factors&lt;/strong> affecting Customer Satisfaction and detect sudden &lt;strong>sentiment changes using NLP analysis on Twitter&lt;/strong>, in order to proactively prevent customer churn.&lt;/p>
+&lt;h1 id="resolve-and-result">Resolve and Result&lt;/h1>
+&lt;ol>
+&lt;li>Data Collection:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Data collected with python library using list relevant keyword.&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Data Cleaning:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Remove Official Acc, Duplicate Tweet, Promotion Tweet&lt;/li>
+&lt;li>Remove Spam or Undetected Duplicate&lt;/li>
+&lt;li>Remove Buzzer Tweet&lt;/li>
+&lt;li>Remove Unnecessary characters (Number, Emoji, Mention, etc.)&lt;/li>
+&lt;li>Stopword Removal&lt;/li>
+&lt;li>Stemming word&lt;/li>
+&lt;li>Slang Words changer&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>EDA (Exploratory Data Analysis):&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Categorization based on keyword&lt;/li>
+&lt;li>Sudden changes by Customer (Positive to negative or otherwise)&lt;/li>
+&lt;li>Getting additional tweet location by text&lt;/li>
+&lt;li>Hashtag analysis&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Data Modeling:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Labelling Data using Fleiss&amp;rsquo; Kappa rules&lt;/li>
+&lt;li>Train, Test, Validation split (0.7, 0.2, 0.1)&lt;/li>
+&lt;li>Tokenization and building vocabulary&lt;/li>
+&lt;li>Model creation using &lt;strong>Bidirectional LSTM (Pytorch)&lt;/strong>&lt;/li>
+&lt;li>Data Training and Hyperparameter Optimization (Gridsearch)&lt;/li>
+&lt;li>Evaluation and Visualization&lt;/li>
+&lt;/ul>
+&lt;h2 id="-results">🏆 Results&lt;/h2>
+&lt;p>The model got an f1-score with &lt;strong>92%&lt;/strong> accuracy, Train loss is &lt;strong>0.035&lt;/strong>, and validation loss is &lt;strong>0.020&lt;/strong>. It means the model I create has a great result to be &lt;strong>deployed&lt;/strong>.&lt;/p></description></item><item><title>Product Cataloging Tokopedia</title><link>https://example.org/portfolio/product_cataloging_tokopedia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/product_cataloging_tokopedia/</guid><description>&lt;p>&lt;img src="https://example.org/images/product_cataloging.gif" alt="GIF_Page">&lt;/p>
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>This project is a replication of a real Tokopedia project presented at the &lt;strong>START Summit Extension on February 24, 2022&lt;/strong>, titled &lt;strong>&amp;ldquo;How We Leverage AI to Match Products.&amp;rdquo;&lt;/strong> It aims to improve the customer buying experience, which can sometimes be challenging—for example, searching for &amp;ldquo;KF 95 Masker&amp;rdquo; may return results where only 8 out of 10 products are actually related to KF 95, while the rest are KF94.&lt;/p></description></item></channel></rss>
