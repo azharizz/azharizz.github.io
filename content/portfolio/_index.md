@@ -15,7 +15,8 @@ image: "/images/profile.jpeg"
 
 # Other Projects:
 
-1. [NLP Brand Sentiment Analysis](/portfolio/nlp_brand_sentiment_analysis)
-2. [Data Mining Competition Earthquake Classification](/portfolio/data_mining_competition_earthquake_classification/)
-3. [Product Cataloging Tokopedia](/portfolio/product_cataloging_tokopedia/)
+1. [Realtime Car Pricing Prediction](/portfolio/realtime_car_pricing_prediction)
+2. [NLP Brand Sentiment Analysis](/portfolio/nlp_brand_sentiment_analysis)
+3. [Data Mining Competition Earthquake Classification](/portfolio/data_mining_competition_earthquake_classification/)
+4. [Product Cataloging Tokopedia](/portfolio/product_cataloging_tokopedia/)
 
