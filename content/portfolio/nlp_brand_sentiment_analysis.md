@@ -3,7 +3,7 @@ title: NLP Brand Sentiment Analysis
 type: page
 ---
 
-![GIF_Page](/images/nlp_brand_sentiment_analysis.gif)
+{{< resize src="/images/nlp_brand_sentiment_analysis.gif" width="480" height="480" alt="GIF_Page" >}}
 
 # Problem
 

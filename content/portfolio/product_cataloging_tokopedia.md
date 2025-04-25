@@ -3,7 +3,7 @@ title: Product Cataloging Tokopedia
 type: page
 ---
 
-![GIF_Page](/images/product_cataloging.gif)
+{{< resize src="/images/product_cataloging.gif" width="480" height="480" alt="GIF_Page" >}}
 
 # Problem
 

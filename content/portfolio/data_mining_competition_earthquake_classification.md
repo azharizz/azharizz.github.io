@@ -3,7 +3,7 @@ title: Data Mining Competition Earthquake Classification
 type: page
 ---
 
-![GIF_Page](/images/data_mining_competition_earthquake_classification.gif)
+{{< resize src="/images/data_mining_competition_earthquake_classification.gif" width="480" height="480" alt="GIF_Page" >}}
 
 # Problem
 
@@ -35,6 +35,8 @@ We broke the process down into three key stages:
 ## 🏆 Results
 - Our XGBoost model achieved the highest accuracy of **90%**
 - We secured **1st place** on the Kaggle leaderboard for the competition!
+
+{{< resize src="/images/data_mining_competition_earthquake_classification_1.png" width="1080" height="180" alt="IMG_1" >}}
 
 ## Repository
 - [**Github Code**](https://github.com/azharizz/STEADataset_DataMining)

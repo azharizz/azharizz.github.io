@@ -24,6 +24,8 @@ Tools Used:
 - ML Model
 - Docker
 
+{{< resize src="/images/realtime_car_pricing_prediction_1.png" width="720" height="360" alt="IMG_1" >}}
+
 Using the tools above, we built the data infrastructure and pipeline from **scratch**, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a **FastAPI endpoint**.
 
 **NOTE: Due to a limitation in GCP's free trial (which does not support streaming from Spark to BigQuery), we implemented a workaround using Google Cloud Functions to push streaming data into BigQuery.**
