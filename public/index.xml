@@ -57,7 +57,36 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/azharizz/STEADataset_DataMining">&lt;strong>Github Code&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kaggle.com/competitions/finaldatamininganforcom20/leaderboard">&lt;strong>Kaggle&lt;/strong>&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>NLP Brand Sentiment Analysis</title><link>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="http://localhost:1313/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
+&lt;/ul></description></item><item><title>Go CLI App Kafka Retention Policy Manager</title><link>http://localhost:1313/portfolio/go_cli_app_kafka_retention_policy_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/go_cli_app_kafka_retention_policy_manager/</guid><description>&lt;img src="http://localhost:1313/images/go_cli_app_kafka_retention_hu_cd086d2f9d6d4972.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Managing Kafka topic retention policies at scale is manual, error-prone, and carries two main risks:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Data Loss&lt;/strong>: Misconfigured retention can delete critical streaming data.&lt;/li>
+&lt;li>&lt;strong>Cost Overruns&lt;/strong>: Unvalidated data retention leads to inflated storage bills.&lt;/li>
+&lt;/ul>
+&lt;h1 id="solution">Solution&lt;/h1>
+&lt;p>To solve the problem, one approach is to create app like CLI to automate easily with the features:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Automated Retention Updates&lt;/strong>&lt;br>
+Applies bulk topic settings via Kafka’s Admin API in one command.&lt;/li>
+&lt;li>&lt;strong>Integrity Validation&lt;/strong>
+&lt;ul>
+&lt;li>Stores expected message counts in Redis&lt;/li>
+&lt;li>Compares Redis counts with files or stored counts in GCS&lt;/li>
+&lt;li>Halts on discrepancies to prevent data loss&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Cost-Efficient Archiving&lt;/strong>
+&lt;ul>
+&lt;li>Moves validated data from Cloud Storage to Coldline/Archive tiers&lt;/li>
+&lt;li>Optionally deletes stale data post-archive&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Easy Integration&lt;/strong>&lt;br>
+Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
+&lt;/ul>
+&lt;p>Stack Used:&lt;/p></description></item><item><title>NLP Brand Sentiment Analysis</title><link>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="http://localhost:1313/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>The Brand Department needed to identify &lt;strong>key factors&lt;/strong> affecting Customer Satisfaction and detect sudden &lt;strong>sentiment changes using NLP analysis on Twitter&lt;/strong>, in order to proactively prevent customer churn.&lt;/p>

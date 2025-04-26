@@ -6,12 +6,14 @@ image: "/images/profile.jpeg"
 
 # Featured Projects:
 
-1. [Tatooine](/portfolio/tatooine/)
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-2. [Hydra](/portfolio/hydra/)
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-3. [Bludhaven](/portfolio/bludhaven/)
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+1. [**Tatooine**](/portfolio/tatooine/)  
+ Simple text exaple 
+
+2. [**Realtime Water Quality Prediction Pipeline**](/portfolio/realtime_water_quality_prediction_pipeline/)  
+ Simple text example 
+
+3. [**Go CLI App Kafka Retention Policy Manager**](/portfolio/go_cli_app_kafka_retention_policy_manager/)   
+Simple text Example
 
 # Other Projects:
 
