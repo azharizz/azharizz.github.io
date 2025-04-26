@@ -6,14 +6,14 @@ image: "/images/profile.jpeg"
 
 # Featured Projects:
 
-1. [**Tatooine**](/portfolio/tatooine/)  
- Simple text exaple 
+1. [**Dimensional Modelling & Modernize Data Warehouse**](/portfolio/dimensional_modelling_modernize_dw/)  
+ Creating ML & Data Infrastructure and Modelling from Zero/Scratch 
 
 2. [**Realtime Water Quality Prediction Pipeline**](/portfolio/realtime_water_quality_prediction/)  
- Simple text example 
+ Build ML Infra from unstructured data 
 
 3. [**Go CLI App Kafka Retention Policy Manager**](/portfolio/go_cli_app_kafka_retention_policy_manager/)   
-Simple text Example
+Simple app to manage and backup data inside Kafka
 
 # Other Projects:
 

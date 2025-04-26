@@ -28,7 +28,7 @@ Tools Used:
 
 Using the tools above, we built the data infrastructure and pipeline from **scratch**, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a **FastAPI endpoint**.
 
-**NOTE: Due to a limitation in GCP's free trial (which does not support streaming from Spark to BigQuery), we implemented a workaround using Google Cloud Functions to push streaming data into BigQuery.**
+**NOTE: Due to a limitation in GCP's free trial (which does not support streaming from Spark to BigQuery), i implemented a workaround using Google Cloud Functions to push streaming data into BigQuery.**
 
 A full demo of the project is available on **YouTube**, showcasing the end-to-end flow from data ingestion to real-time prediction.
 

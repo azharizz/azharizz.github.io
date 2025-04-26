@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Azhar Izzannada Elbachtiar</title><link>http://localhost:1313/portfolio/</link><description>Recent content in Projects on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Blüdhaven</title><link>http://localhost:1313/portfolio/bludhaven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/bludhaven/</guid><description>&lt;h2 id="history">History&lt;/h2>
-&lt;p>Blüdhaven was a former whaling town, which was officially incorporated as a &amp;ldquo;Commonwealth&amp;rdquo; in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center.&lt;/p></description></item><item><title>Data Mining Competition Earthquake Classification</title><link>http://localhost:1313/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;img src="http://localhost:1313/images/data_mining_competition_earthquake_classification_hu_11f246b12e6af6c0.gif" alt="GIF_Page">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Azhar Izzannada Elbachtiar</title><link>https://example.org/portfolio/</link><description>Recent content in Projects on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="https://example.org/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Blüdhaven</title><link>https://example.org/portfolio/bludhaven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/bludhaven/</guid><description>&lt;h2 id="history">History&lt;/h2>
+&lt;p>Blüdhaven was a former whaling town, which was officially incorporated as a &amp;ldquo;Commonwealth&amp;rdquo; in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center.&lt;/p></description></item><item><title>Data Mining Competition Earthquake Classification</title><link>https://example.org/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_hu_11f246b12e6af6c0.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>We were challenged to predict the phase of an earthquake—a multiclass classification task—within a strict &lt;strong>5-hour time limit&lt;/strong>. The results had to be submitted to Kaggle for leaderboard ranking and also presented live to a panel of judges.&lt;/p>
@@ -49,13 +49,41 @@
 
 
 
-&lt;img src="http://localhost:1313/images/data_mining_competition_earthquake_classification_1_hu_b0a0c115a5b69c46.png" alt="IMG_1">
+&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_1_hu_b0a0c115a5b69c46.png" alt="IMG_1">
 
 &lt;h2 id="repository">Repository&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/azharizz/STEADataset_DataMining">&lt;strong>Github Code&lt;/strong>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.kaggle.com/competitions/finaldatamininganforcom20/leaderboard">&lt;strong>Kaggle&lt;/strong>&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Go CLI App Kafka Retention Policy Manager</title><link>http://localhost:1313/portfolio/go_cli_app_kafka_retention_policy_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/go_cli_app_kafka_retention_policy_manager/</guid><description>&lt;img src="http://localhost:1313/images/go_cli_app_kafka_retention_hu_cd086d2f9d6d4972.gif" alt="GIF_Page">
+&lt;/ul></description></item><item><title>Dimensional Modelling &amp; Modernize Data Warehouse</title><link>https://example.org/portfolio/dimensional_modelling_modernize_dw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/dimensional_modelling_modernize_dw/</guid><description>&lt;img src="https://example.org/images/dimensional_modelling_modernize_dw_hu_3ba92601045b36e.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Modernize and build a scalable Data Warehouse for Multiple Teams using a cloud-native. Key challenges include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Inconsistent data sources&lt;/strong>: Sales data spread across transactional systems, Firestore, and external feeds.&lt;/li>
+&lt;li>&lt;strong>Lack of actionable insights&lt;/strong>: Difficulty measuring promotion ROI, territory performance, and customer segments in real time.&lt;/li>
+&lt;li>&lt;strong>Complex ETL maintenance&lt;/strong>: Existing pipelines are brittle and hard to orchestrate.&lt;/li>
+&lt;/ul>
+&lt;h2 id="user-requirements">User Requirements&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Business Development Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Analyze effectiveness of special offers and promotions on sales to inform future marketing decisions.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Sales Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Compare sales across territories and convert USD↔EUR to pinpoint top regions and assess currency impact.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Customer Relationship Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Perform real-time clustering of customers by purchase frequency and average order value (since 2013) to tailor loyalty programs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="result">Result&lt;/h1>
+&lt;p>We designed a dimensional model in BigQuery and automated ELT/ETL with &lt;strong>dbt&lt;/strong>, &lt;strong>Airflow&lt;/strong>, and streaming components for real-time analytics.&lt;/p></description></item><item><title>Go CLI App Kafka Retention Policy Manager</title><link>https://example.org/portfolio/go_cli_app_kafka_retention_policy_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/go_cli_app_kafka_retention_policy_manager/</guid><description>&lt;img src="https://example.org/images/go_cli_app_kafka_retention_hu_cd086d2f9d6d4972.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Managing Kafka topic retention policies at scale is manual, error-prone, and carries two main risks:&lt;/p>
@@ -84,7 +112,7 @@ Applies bulk topic settings via Kafka’s Admin API in one command.&lt;/li>
 &lt;li>&lt;strong>Easy Integration&lt;/strong>&lt;br>
 Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
 &lt;/ul>
-&lt;p>Stack Used:&lt;/p></description></item><item><title>NLP Brand Sentiment Analysis</title><link>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="http://localhost:1313/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
+&lt;p>Stack Used:&lt;/p></description></item><item><title>NLP Brand Sentiment Analysis</title><link>https://example.org/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="https://example.org/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>The Brand Department needed to identify &lt;strong>key factors&lt;/strong> affecting Customer Satisfaction and detect sudden &lt;strong>sentiment changes using NLP analysis on Twitter&lt;/strong>, in order to proactively prevent customer churn.&lt;/p>
@@ -128,12 +156,12 @@ Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
 &lt;li>Evaluation and Visualization&lt;/li>
 &lt;/ul>
 &lt;h2 id="-results">🏆 Results&lt;/h2>
-&lt;p>The model got an f1-score with &lt;strong>92%&lt;/strong> accuracy, Train loss is &lt;strong>0.035&lt;/strong>, and validation loss is &lt;strong>0.020&lt;/strong>. It means the model I create has a great result to be &lt;strong>deployed&lt;/strong>.&lt;/p></description></item><item><title>Product Cataloging Tokopedia</title><link>http://localhost:1313/portfolio/product_cataloging_tokopedia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/product_cataloging_tokopedia/</guid><description>&lt;img src="http://localhost:1313/images/product_cataloging_hu_f9fd212aaa85dda7.gif" alt="GIF_Page">
+&lt;p>The model got an f1-score with &lt;strong>92%&lt;/strong> accuracy, Train loss is &lt;strong>0.035&lt;/strong>, and validation loss is &lt;strong>0.020&lt;/strong>. It means the model I create has a great result to be &lt;strong>deployed&lt;/strong>.&lt;/p></description></item><item><title>Product Cataloging Tokopedia</title><link>https://example.org/portfolio/product_cataloging_tokopedia/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/product_cataloging_tokopedia/</guid><description>&lt;img src="https://example.org/images/product_cataloging_hu_f9fd212aaa85dda7.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>This project is a replication of a real Tokopedia project presented at the &lt;strong>START Summit Extension on February 24, 2022&lt;/strong>, titled &lt;strong>&amp;ldquo;How We Leverage AI to Match Products.&amp;rdquo;&lt;/strong> It aims to improve the customer buying experience, which can sometimes be challenging—for example, searching for &amp;ldquo;KF 95 Masker&amp;rdquo; may return results where only 8 out of 10 products are actually related to KF 95, while the rest are KF94.&lt;/p>
 &lt;h1 id="result">Result&lt;/h1>
-&lt;p>Before starting the product cataloging process, we cleaned and transformed the data with the following steps:&lt;/p></description></item><item><title>Realtime Car Pricing Prediction</title><link>http://localhost:1313/portfolio/realtime_car_pricing_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/realtime_car_pricing_prediction/</guid><description>&lt;img src="http://localhost:1313/images/realtime_car_pricing_prediction_hu_5f833a8c2aee2df0.gif" alt="GIF_Page">
+&lt;p>Before starting the product cataloging process, we cleaned and transformed the data with the following steps:&lt;/p></description></item><item><title>Realtime Car Pricing Prediction</title><link>https://example.org/portfolio/realtime_car_pricing_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/realtime_car_pricing_prediction/</guid><description>&lt;img src="https://example.org/images/realtime_car_pricing_prediction_hu_5f833a8c2aee2df0.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>This project tackles the challenge of real-time car price prediction in used car marketplaces, where pricing is often &lt;strong>inconsistent and subjective&lt;/strong>. The goal is to provide an AI-powered tool that predicts fair market prices instantly, helping both sellers and buyers make better decisions&lt;/p>
@@ -160,9 +188,9 @@ Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
 
 
 
-&lt;img src="http://localhost:1313/images/realtime_car_pricing_prediction_1_hu_48ee5c3f1dcf2ebe.png" alt="IMG_1">
+&lt;img src="https://example.org/images/realtime_car_pricing_prediction_1_hu_48ee5c3f1dcf2ebe.png" alt="IMG_1">
 
-&lt;p>Using the tools above, we built the data infrastructure and pipeline from &lt;strong>scratch&lt;/strong>, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a &lt;strong>FastAPI endpoint&lt;/strong>.&lt;/p></description></item><item><title>Realtime Water Quality Prediction End-to-End Pipeline</title><link>http://localhost:1313/portfolio/realtime_water_quality_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/realtime_water_quality_prediction/</guid><description>&lt;img src="http://localhost:1313/images/realtime_water_quality_prediction_hu_32263fecdafdacbe.gif" alt="GIF_Page">
+&lt;p>Using the tools above, we built the data infrastructure and pipeline from &lt;strong>scratch&lt;/strong>, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a &lt;strong>FastAPI endpoint&lt;/strong>.&lt;/p></description></item><item><title>Realtime Water Quality Prediction End-to-End Pipeline</title><link>https://example.org/portfolio/realtime_water_quality_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/realtime_water_quality_prediction/</guid><description>&lt;img src="https://example.org/images/realtime_water_quality_prediction_hu_32263fecdafdacbe.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>Monitoring water quality in real time is crucial for public health, industrial operations, and environmental safety. Traditional systems often rely on delayed batch data, which makes it hard to respond quickly to dangerous conditions such as pH spikes and contamination that will affect in example the business pond fish.&lt;/p>

@@ -26,6 +26,8 @@ Built using **Google Cloud Platform + Docker**, the pipeline connects end-to-end
 
 {{< resize src="/images/realtime_water_quality_prediction_1.png" width="720" height="360" alt="IMG_1" >}}
 
+**NOTE: Due to a limitation in GCP's free trial (which does not support streaming from Spark to BigQuery), i implemented a workaround using Google Cloud Functions to push streaming data into BigQuery.**
+
 ## Example Workflow:
 1. Water sensor writes raw data → stored in **MongoDB**  
 2. Kafka Connector streams updates → **Kafka Broker**  
