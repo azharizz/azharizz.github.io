@@ -9,7 +9,7 @@ image: "/images/profile.jpeg"
 1. [**Tatooine**](/portfolio/tatooine/)  
  Simple text exaple 
 
-2. [**Realtime Water Quality Prediction Pipeline**](/portfolio/realtime_water_quality_prediction_pipeline/)  
+2. [**Realtime Water Quality Prediction Pipeline**](/portfolio/realtime_water_quality_prediction/)  
  Simple text example 
 
 3. [**Go CLI App Kafka Retention Policy Manager**](/portfolio/go_cli_app_kafka_retention_policy_manager/)   

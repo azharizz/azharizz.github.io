@@ -162,4 +162,8 @@ Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
 
 &lt;img src="http://localhost:1313/images/realtime_car_pricing_prediction_1_hu_48ee5c3f1dcf2ebe.png" alt="IMG_1">
 
-&lt;p>Using the tools above, we built the data infrastructure and pipeline from &lt;strong>scratch&lt;/strong>, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a &lt;strong>FastAPI endpoint&lt;/strong>.&lt;/p></description></item></channel></rss>
+&lt;p>Using the tools above, we built the data infrastructure and pipeline from &lt;strong>scratch&lt;/strong>, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a &lt;strong>FastAPI endpoint&lt;/strong>.&lt;/p></description></item><item><title>Realtime Water Quality Prediction End-to-End Pipeline</title><link>http://localhost:1313/portfolio/realtime_water_quality_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/realtime_water_quality_prediction/</guid><description>&lt;img src="http://localhost:1313/images/realtime_water_quality_prediction_hu_32263fecdafdacbe.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Monitoring water quality in real time is crucial for public health, industrial operations, and environmental safety. Traditional systems often rely on delayed batch data, which makes it hard to respond quickly to dangerous conditions such as pH spikes and contamination that will affect in example the business pond fish.&lt;/p>
+&lt;p>The challenge: &lt;strong>build a scalable, real-time water quality prediction pipeline&lt;/strong> that processes sensor data as it’s collected, predicts quality metrics instantly, and stores validated results for downstream analytics.&lt;/p></description></item></channel></rss>
