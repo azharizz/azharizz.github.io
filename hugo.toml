@@ -76,10 +76,10 @@ title = "Azhar Izzannada Elbachtiar"
   togglePreviousAndNextButtons = false
 
   socialIcons = [
-    {name = "x", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "medium", url = "https://medium.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    {name = "x", url = "https://x.com/AzharIzz"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/azharizz/"},
+    {name = "medium", url = "https://medium.com/@azharizzannadae"},
+    {name = "email", url = "mailto:azharizzannadae@gmail.com"}
   ]
 
 [menu]
