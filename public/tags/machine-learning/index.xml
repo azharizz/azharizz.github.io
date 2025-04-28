@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portfolio on Azhar Izzannada Elbachtiar</title><link>https://example.org/tags/portfolio/</link><description>Recent content in Portfolio on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Engineer Portfolio Creation Things</title><link>https://example.org/posts/2023_12_31_data_engineer_portfolio_creation_things/</link><pubDate>Sun, 31 Dec 2023 01:01:01 +0700</pubDate><guid>https://example.org/posts/2023_12_31_data_engineer_portfolio_creation_things/</guid><description>&lt;h1 id="learning-by-doing">Learning by Doing&lt;/h1>
-&lt;p>The principle of learning can take many forms—through different media, structured steps, supportive environments, or any combination that makes the process enjoyable, fun, easy to understand, relaxed, and focused, thereby adding positive value. &lt;strong>Learning by Doing&lt;/strong> is one such approach. Personally, I believe that &lt;strong>mastering the fundamentals&lt;/strong> is essential, but when you’re a programmer or working in a highly technical field, &lt;strong>hands‑on experience&lt;/strong> is crucial for transforming foundational theory into real‑world implementations.&lt;/p></description></item><item><title>Data Mining Competition Earthquake Classification</title><link>https://example.org/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_hu_11f246b12e6af6c0.gif" alt="GIF_Page">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Machine Learning on Azhar Izzannada Elbachtiar</title><link>https://example.org/tags/machine-learning/</link><description>Recent content in Machine Learning on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="https://example.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Mining Competition Earthquake Classification</title><link>https://example.org/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_hu_11f246b12e6af6c0.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>We were challenged to predict the phase of an earthquake—a multiclass classification task—within a strict &lt;strong>5-hour time limit&lt;/strong>. The results had to be submitted to Kaggle for leaderboard ranking and also presented live to a panel of judges.&lt;/p>
@@ -83,36 +82,7 @@
 &lt;/li>
 &lt;/ol>
 &lt;h1 id="result">Result&lt;/h1>
-&lt;p>We designed a dimensional model in BigQuery and automated ELT/ETL with &lt;strong>dbt&lt;/strong>, &lt;strong>Airflow&lt;/strong>, and streaming components for real-time analytics.&lt;/p></description></item><item><title>Go CLI App Kafka Retention Policy Manager</title><link>https://example.org/portfolio/go_cli_app_kafka_retention_policy_manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/go_cli_app_kafka_retention_policy_manager/</guid><description>&lt;img src="https://example.org/images/go_cli_app_kafka_retention_hu_cd086d2f9d6d4972.gif" alt="GIF_Page">
-
-&lt;h1 id="problem">Problem&lt;/h1>
-&lt;p>Managing Kafka topic retention policies at scale is manual, error-prone, and carries two main risks:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Data Loss&lt;/strong>: Misconfigured retention can delete critical streaming data.&lt;/li>
-&lt;li>&lt;strong>Cost Overruns&lt;/strong>: Unvalidated data retention leads to inflated storage bills.&lt;/li>
-&lt;/ul>
-&lt;h1 id="solution">Solution&lt;/h1>
-&lt;p>To solve the problem, one approach is to create app like CLI to automate easily with the features:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Automated Retention Updates&lt;/strong>&lt;br>
-Applies bulk topic settings via Kafka’s Admin API in one command.&lt;/li>
-&lt;li>&lt;strong>Integrity Validation&lt;/strong>
-&lt;ul>
-&lt;li>Stores expected message counts in Redis&lt;/li>
-&lt;li>Compares Redis counts with files or stored counts in GCS&lt;/li>
-&lt;li>Halts on discrepancies to prevent data loss&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Cost-Efficient Archiving&lt;/strong>
-&lt;ul>
-&lt;li>Moves validated data from Cloud Storage to Coldline/Archive tiers&lt;/li>
-&lt;li>Optionally deletes stale data post-archive&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>Easy Integration&lt;/strong>&lt;br>
-Docker-packaged CLI, fits into CI/CD pipelines or scheduled jobs.&lt;/li>
-&lt;/ul>
-&lt;p>Stack Used:&lt;/p></description></item><item><title>NLP Brand Sentiment Analysis</title><link>https://example.org/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="https://example.org/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
+&lt;p>We designed a dimensional model in BigQuery and automated ELT/ETL with &lt;strong>dbt&lt;/strong>, &lt;strong>Airflow&lt;/strong>, and streaming components for real-time analytics.&lt;/p></description></item><item><title>NLP Brand Sentiment Analysis</title><link>https://example.org/portfolio/nlp_brand_sentiment_analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/nlp_brand_sentiment_analysis/</guid><description>&lt;img src="https://example.org/images/nlp_brand_sentiment_analysis_hu_aa99e2b48c0030fb.gif" alt="GIF_Page">
 
 &lt;h1 id="problem">Problem&lt;/h1>
 &lt;p>The Brand Department needed to identify &lt;strong>key factors&lt;/strong> affecting Customer Satisfaction and detect sudden &lt;strong>sentiment changes using NLP analysis on Twitter&lt;/strong>, in order to proactively prevent customer churn.&lt;/p>

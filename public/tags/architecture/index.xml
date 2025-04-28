@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Azhar Izzannada Elbachtiar</title><link>https://example.org/tags/architecture/</link><description>Recent content in Architecture on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="https://example.org/tags/architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Dimensional Modelling &amp; Modernize Data Warehouse</title><link>https://example.org/portfolio/dimensional_modelling_modernize_dw/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/dimensional_modelling_modernize_dw/</guid><description>&lt;img src="https://example.org/images/dimensional_modelling_modernize_dw_hu_3ba92601045b36e.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Modernize and build a scalable Data Warehouse for Multiple Teams using a cloud-native. Key challenges include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Inconsistent data sources&lt;/strong>: Sales data spread across transactional systems, Firestore, and external feeds.&lt;/li>
+&lt;li>&lt;strong>Lack of actionable insights&lt;/strong>: Difficulty measuring promotion ROI, territory performance, and customer segments in real time.&lt;/li>
+&lt;li>&lt;strong>Complex ETL maintenance&lt;/strong>: Existing pipelines are brittle and hard to orchestrate.&lt;/li>
+&lt;/ul>
+&lt;h2 id="user-requirements">User Requirements&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Business Development Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Analyze effectiveness of special offers and promotions on sales to inform future marketing decisions.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Sales Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Compare sales across territories and convert USD↔EUR to pinpoint top regions and assess currency impact.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Customer Relationship Manager:&lt;/strong>
+&lt;ul>
+&lt;li>Perform real-time clustering of customers by purchase frequency and average order value (since 2013) to tailor loyalty programs.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="result">Result&lt;/h1>
+&lt;p>We designed a dimensional model in BigQuery and automated ELT/ETL with &lt;strong>dbt&lt;/strong>, &lt;strong>Airflow&lt;/strong>, and streaming components for real-time analytics.&lt;/p></description></item><item><title>Realtime Car Pricing Prediction</title><link>https://example.org/portfolio/realtime_car_pricing_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/realtime_car_pricing_prediction/</guid><description>&lt;img src="https://example.org/images/realtime_car_pricing_prediction_hu_5f833a8c2aee2df0.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>This project tackles the challenge of real-time car price prediction in used car marketplaces, where pricing is often &lt;strong>inconsistent and subjective&lt;/strong>. The goal is to provide an AI-powered tool that predicts fair market prices instantly, helping both sellers and buyers make better decisions&lt;/p>
+&lt;h1 id="result">Result&lt;/h1>
+&lt;p>Tools Used:&lt;/p>
+&lt;ul>
+&lt;li>MySQL&lt;/li>
+&lt;li>Debezium&lt;/li>
+&lt;li>Kafka&lt;/li>
+&lt;li>Spark&lt;/li>
+&lt;li>FastAPI&lt;/li>
+&lt;li>GCP&lt;/li>
+&lt;li>Cloud Storage&lt;/li>
+&lt;li>Cloud Functions&lt;/li>
+&lt;li>BigQuery&lt;/li>
+&lt;li>ML Model&lt;/li>
+&lt;li>Docker&lt;/li>
+&lt;/ul>
+
+
+
+
+
+
+
+
+&lt;img src="https://example.org/images/realtime_car_pricing_prediction_1_hu_48ee5c3f1dcf2ebe.png" alt="IMG_1">
+
+&lt;p>Using the tools above, we built the data infrastructure and pipeline from &lt;strong>scratch&lt;/strong>, enabling seamless real-time price prediction. The system streams data from MySQL using Debezium, processes it with Spark, and serves predictions through a &lt;strong>FastAPI endpoint&lt;/strong>.&lt;/p></description></item><item><title>Realtime Water Quality Prediction End-to-End Pipeline</title><link>https://example.org/portfolio/realtime_water_quality_prediction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/realtime_water_quality_prediction/</guid><description>&lt;img src="https://example.org/images/realtime_water_quality_prediction_hu_32263fecdafdacbe.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>Monitoring water quality in real time is crucial for public health, industrial operations, and environmental safety. Traditional systems often rely on delayed batch data, which makes it hard to respond quickly to dangerous conditions such as pH spikes and contamination that will affect in example the business pond fish.&lt;/p>
+&lt;p>The challenge: &lt;strong>build a scalable, real-time water quality prediction pipeline&lt;/strong> that processes sensor data as it’s collected, predicts quality metrics instantly, and stores validated results for downstream analytics.&lt;/p></description></item></channel></rss>

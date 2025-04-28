@@ -1,6 +1,7 @@
 ---
 title: Dimensional Modelling & Modernize Data Warehouse
 type: page
+tags: ["data engineer", "portfolio", "platform", "architecture", "ai", "machine learning"]
 ---
 
 {{< resize src="/images/dimensional_modelling_modernize_dw.gif" width="480" height="480" alt="GIF_Page" >}}

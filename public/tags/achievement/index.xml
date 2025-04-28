@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Achievement on Azhar Izzannada Elbachtiar</title><link>https://example.org/tags/achievement/</link><description>Recent content in Achievement on Azhar Izzannada Elbachtiar</description><generator>Hugo</generator><language>en</language><atom:link href="https://example.org/tags/achievement/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Mining Competition Earthquake Classification</title><link>https://example.org/portfolio/data_mining_competition_earthquake_classification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/portfolio/data_mining_competition_earthquake_classification/</guid><description>&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_hu_11f246b12e6af6c0.gif" alt="GIF_Page">
+
+&lt;h1 id="problem">Problem&lt;/h1>
+&lt;p>We were challenged to predict the phase of an earthquake—a multiclass classification task—within a strict &lt;strong>5-hour time limit&lt;/strong>. The results had to be submitted to Kaggle for leaderboard ranking and also presented live to a panel of judges.&lt;/p>
+&lt;h1 id="resolve-and-result">Resolve and Result&lt;/h1>
+&lt;p>We broke the process down into three key stages:&lt;/p>
+&lt;ol>
+&lt;li>Data Cleaning &amp;amp; Transformation&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Applied labeling and One-Hot Encoding to categorical features&lt;/li>
+&lt;li>Split into train, validation, and test sets&lt;/li>
+&lt;li>Scaling using Standard Scaler&lt;/li>
+&lt;li>Handled class imbalance with SMOTE oversampling&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Exploratory Data Analysis (EDA)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Used a heatmap to explore correlation between sensor values&lt;/li>
+&lt;li>Discovered distribution of earthquake phases pretty different&lt;/li>
+&lt;li>No missing values&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>Data Modeling&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Due to limited time and using &lt;strong>only a standard laptop&lt;/strong>, we prioritized fast experimentation&lt;/li>
+&lt;li>Performed hyperparameter tuning with Randomized Search&lt;/li>
+&lt;li>Tried several models:
+&lt;ul>
+&lt;li>Decision Tree&lt;/li>
+&lt;li>Random Forest&lt;/li>
+&lt;li>XGBoost (best-performing)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="-results">🏆 Results&lt;/h2>
+&lt;ul>
+&lt;li>Our XGBoost model achieved the highest accuracy of &lt;strong>90%&lt;/strong>&lt;/li>
+&lt;li>We secured &lt;strong>1st place&lt;/strong> on the Kaggle leaderboard for the competition!&lt;/li>
+&lt;/ul>
+
+
+
+
+
+
+
+
+&lt;img src="https://example.org/images/data_mining_competition_earthquake_classification_1_hu_b0a0c115a5b69c46.png" alt="IMG_1">
+
+&lt;h2 id="repository">Repository&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/azharizz/STEADataset_DataMining">&lt;strong>Github Code&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kaggle.com/competitions/finaldatamininganforcom20/leaderboard">&lt;strong>Kaggle&lt;/strong>&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

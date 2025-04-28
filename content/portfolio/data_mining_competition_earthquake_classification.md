@@ -1,6 +1,7 @@
 ---
 title: Data Mining Competition Earthquake Classification
 type: page
+tags: ["ai", "portfolio", "machine learning", "achievement"]
 ---
 
 {{< resize src="/images/data_mining_competition_earthquake_classification.gif" width="480" height="480" alt="GIF_Page" >}}

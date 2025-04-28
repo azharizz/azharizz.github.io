@@ -1,6 +1,7 @@
 ---
 title: NLP Brand Sentiment Analysis
 type: page
+tags: ["portfolio", "ai", "machine learning"]
 ---
 
 {{< resize src="/images/nlp_brand_sentiment_analysis.gif" width="480" height="480" alt="GIF_Page" >}}

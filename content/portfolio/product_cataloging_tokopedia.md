@@ -1,6 +1,7 @@
 ---
 title: Product Cataloging Tokopedia
 type: page
+tags: ["portfolio", "ai", "machine learning"]
 ---
 
 {{< resize src="/images/product_cataloging.gif" width="480" height="480" alt="GIF_Page" >}}

@@ -1,6 +1,7 @@
 ---
 title: Realtime Water Quality Prediction End-to-End Pipeline 
 type: page
+tags: ["data engineer", "portfolio", "platform", "architecture", "ai", "machine learning"]
 ---
 
 {{< resize src="/images/realtime_water_quality_prediction.gif" width="480" height="480" alt="GIF_Page" >}}

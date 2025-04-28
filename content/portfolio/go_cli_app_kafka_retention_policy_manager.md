@@ -1,6 +1,7 @@
 ---
 title: Go CLI App Kafka Retention Policy Manager 
 type: page
+tags: ["data engineer", "portfolio", "platform"]
 ---
 
 {{< resize src="/images/go_cli_app_kafka_retention.gif" width="480" height="480" alt="GIF_Page" >}}
