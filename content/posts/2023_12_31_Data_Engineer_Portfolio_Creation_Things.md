@@ -4,7 +4,7 @@ date: 2023-12-31T01:01:01+07:00
 # image: ""
 lastmod: 2023-12-31
 showTableOfContents: false
-tags: ["data engineer", "portfolio", "data engineer tips", "data engineer story"]
+tags: ["data engineer", "portfolio", "data engineer tips", "data engineer story", "blog"]
 title: "Data Engineer Portfolio Creation Things"
 type: "post"
 ---

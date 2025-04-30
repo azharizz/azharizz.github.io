@@ -2,9 +2,9 @@
 Data Expert with experience in large-scale data in Terabyte until Petabyte Data Scale.
 - Computer Science Bachelors Degree | GPA 3.80/4.00 (Brawijaya University)
 - Certifications:
-  - Google Cloud Data Engineer
-  - Google Cloud Architect
-  - AWS Solutions Architect
+  - [Google Cloud Data Engineer](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+  - [Google Cloud Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+  - [AWS Solutions Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
 
 ## Experience
 - Data Engineer, Mekari (2024-Now)
