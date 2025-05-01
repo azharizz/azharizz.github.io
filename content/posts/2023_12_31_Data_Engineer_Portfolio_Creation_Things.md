@@ -18,7 +18,16 @@ I’ve found that creating projects—especially in **data engineering**—offer
 
 # Cost and Struggle
 
-![Meme Cat](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk2NTdkMGh3cWJocmphdXA2NDFreDB5dHB6cGQwcDk5OHBnaHYzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/unQ3IJU2RG7DO/giphy.gif)
+{{< resize_with_button
+    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGk2NTdkMGh3cWJocmphdXA2NDFreDB5dHB6cGQwcDk5OHBnaHYzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/unQ3IJU2RG7DO/giphy.gif"
+    width="280"
+    height="280"
+    alt="IMG1"
+    id="image_1"
+    showText="Show Image"
+    hideText="Hide Image"
+>}}
+
 
 Data engineering projects can sometimes costly for cloud services, computation, data samples, and more. You can mitigate these expenses by choosing **open‑source tools** or signing up for **free trials** on: 
 - Cloud platform such as Google Cloud Platform (GCP), AWS, and Azure

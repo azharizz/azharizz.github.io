@@ -13,7 +13,17 @@ type: "post"
 
 Many people assume Spot Instances are only useful for testing, but they can be a game-changer when applied strategically. If your workload can tolerate interruptions or finishes well within the typical 24-hour eviction window Spot Instances become an incredibly cost-effective option. In my experience, any job that completes in under six hours is a perfect candidate for Spot. You’ll get the exact same performance as a standard on-demand instance, but at a fraction of the cost.
 
-![Meme Cat](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXdoNWpqeXlwcTJndGc5MjdmMHpudGxlc3Q5bnIzanRhZXliOHdxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26gsuvEUdLTwn0lNu/giphy.gif)
+{{< resize_with_button
+    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXdoNWpqeXlwcTJndGc5MjdmMHpudGxlc3Q5bnIzanRhZXliOHdxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26gsuvEUdLTwn0lNu/giphy.gif"
+    width="360"
+    height="280"
+    alt="IMG1"
+    id="image_1"
+    showText="Show Image"
+    hideText="Hide Image"
+>}}
+
+
 
 # Parallelizing Network-Heavy Jobs with Spot Instances
 

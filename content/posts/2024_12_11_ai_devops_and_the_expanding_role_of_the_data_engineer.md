@@ -13,7 +13,17 @@ type: "post"
 
 In data engineering, your work often overlaps with DevOps, software engineering, and machine learning roles. Some companies hire a “full-stack” data engineer who wears all those hats. others split responsibilities into specialized teams. Personally, I love this variety. It’s an opportunity to pick up skills outside the typical data engineering toolkit. Most of these adjacent tasks aren’t as deep or complex as the primary role, but mastering them can position you for broader opportunities. In fact, many data engineers evolve into Solutions Architects at larger organizations by demonstrating cross-functional expertise.
 
-![Meme Cat](https://media1.tenor.com/m/sxrZiFBNRXAAAAAC/dance-dancing-cat.gif)
+{{< resize_with_button
+    src="https://media1.tenor.com/m/sxrZiFBNRXAAAAAC/dance-dancing-cat.gif"
+    width="280"
+    height="280"
+    alt="IMG1"
+    id="image_1"
+    showText="Show Image"
+    hideText="Hide Image"
+>}}
+
+
 
 # Growing Beyond Data: DevOps, ML, and Cloud Certifications
 

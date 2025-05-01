@@ -17,7 +17,17 @@ type: "post"
 
 Data engineering can feel like a never-ending buffet of tools like ETL frameworks, data warehouses, orchestration platforms, container services, and more. Some people even joke that data engineers are really “tool operators”. While each tool can simplify a specific task, juggling too many often makes workflows more complex than consolidating around a handful of versatile solutions. There’s no perfect fit toolset, but identifying the handful of platforms that match your daily workload is key to staying efficient and sane.
 
-![Meme Cat](https://media1.tenor.com/m/EZ3AF0Hhw3UAAAAC/cat-holding-head-cat.gif)
+{{< resize_with_button
+    src="https://media1.tenor.com/m/EZ3AF0Hhw3UAAAAC/cat-holding-head-cat.gif"
+    width="280"
+    height="280"
+    alt="IMG1"
+    id="image_1"
+    showText="Show Image"
+    hideText="Hide Image"
+>}}
+
+
 
 # Focusing on What Matters most
 
