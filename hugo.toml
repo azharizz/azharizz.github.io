@@ -79,6 +79,7 @@ title = "Azhar Izzannada Elbachtiar"
     {name = "x", url = "https://x.com/AzharIzz"},
     {name = "linkedin", url = "https://www.linkedin.com/in/azharizz/"},
     {name = "medium", url = "https://medium.com/@azharizzannadae"},
+    {name = "github", url = "https://github.com/azharizz"},
     {name = "email", url = "mailto:azharizzannadae@gmail.com"}
   ]
 
@@ -118,7 +119,7 @@ title = "Azhar Izzannada Elbachtiar"
     identifier = "github"
 
     # Absolute URL to external resource
-    url = "https://github.com"
+    url = "https://github.com/azharizz"
     weight = 5
     
     # Surround the menu entry (or name) with HTML content, such as Feather
