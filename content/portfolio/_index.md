@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 type: page
-image: "/images/profile.jpeg"
+image: "/images/profile.webp"
 ---
 
 # Featured Projects:
