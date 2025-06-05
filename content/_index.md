@@ -1,4 +1,4 @@
-# Background
+## Background
 Data Expert with experience in large-scale data in Terabyte until Petabyte Data Scale.
 - Computer Science Bachelors Degree | GPA 3.80/4.00 (Brawijaya University)
 - [Google Cloud Data Engineer](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
