@@ -13,7 +13,7 @@ title = "Azhar Izzannada Elbachtiar"
   accentColor = "#FF4D4D"
 
   # Resource URL for the site avatar (home page and header)
-  avatarURL = "/images/profile.jpeg"
+  avatarURL = "/images/profile.webp"
 
   # Describe the avatar for screen readers
   avatarAltText = "avatar"

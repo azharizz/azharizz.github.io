@@ -1,16 +1,16 @@
 # Background
 Data Expert with experience in large-scale data in Terabyte until Petabyte Data Scale.
 - Computer Science Bachelors Degree | GPA 3.80/4.00 (Brawijaya University)
-- Certifications:
-  - [Google Cloud Data Engineer](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
-  - [Google Cloud Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
-  - [AWS Solutions Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+- [Google Cloud Data Engineer](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+- [Google Cloud Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+- [AWS Solutions Architect](https://drive.google.com/drive/folders/1Tyf9YvsCY0vfe2GLoy6Cnnns2VR6dE00)
+- [Microsoft Data Engineer](https://drive.google.com/file/d/1rBNSVpXynT0zICJ4VpFNu2j_00ypSjDv/view?usp=sharing)
 
 ## Experience
 - Data Engineer, Mekari (2024-Now)
 - Data Engineer, Moladin (2023-2024)
 - Data Engineer, Lion Parcel (2022-2023)
-- Big Data Engineer, XLSmart Telecom (2021-2022)
+- Big Data Engineer, Smartfren Telecom (2021-2022)
 
 ## Achievement & Contribute
 - [Active Data Engineer Course Instructor](https://github.com/azharizz/Data_Engineer_Streamlit_Airflow)
